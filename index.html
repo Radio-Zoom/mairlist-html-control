@@ -1,0 +1,106 @@
+<html>
+<!-- 
+ *	index.html serving the GUI
+ *
+ * @package     
+ * @license     http://www.gnu.org/licenses/agpl.html AGPL Version 3
+ * @author      Christian Meyer <info@dj-meggs.de>
+ * @copyright   Copyright (c) 2017-2018 Christian Meyer (http://www.dj-meggs.de/)
+ *
+-->
+
+
+
+
+        <head>
+            <meta charset="UTF-8" />
+            <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.js"></script>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+            <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+            <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+        </head>
+
+<body>
+<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+        
+            <h2>Radio Zoom Control Panel S1</h2>
+                <h4>Aktueller Titel</h4>
+             
+                <th><div id="streamTitle"> </div></th>
+            
+    
+                        
+                        <link rel="stylesheet" type="text/css" href="stylesheet_mairlistCP.css"></link>
+                
+                <table class="table condensed">                         
+                         
+                    <tr>
+                       <th></th>
+                       <th><div>LIVE 1</div></th>
+                       <th><div>LIVE 2</div></th>
+                       <th><div>AUTOMATION</div></th>
+                </tr>
+                <tr>
+                        <td></td>      
+                                               
+                        <td><div class="checkbox enabled"><span id="toggle_wrapper1"><input id="toggle-event1" type="checkbox" data-toggle="toggle"></div></span></td>
+                        <td><div class="checkbox enabled"><span id="toggle_wrapper2"><input id="toggle-event2" type="checkbox" data-toggle="toggle"></span></div></td>
+                        <td></td>
+                </tr>
+                <tr>
+                        <td></td>
+                        <td><div id="onAIRstat1"></div></td>
+                        <td><div id="onAIRstat2"></div></td>
+                        <td><div id="onAIRstatAuto"></div></td>
+                </tr>
+                <tr>
+                       <td></td>
+                       <td><img id="live1ID" src=""/></td>
+                       <td><img id="live2ID" src=""/></td>
+                       <td><img id="autoID"  src=""/></td>
+                </tr>
+                <tr>
+                        <td><p class="text-right">Sendungsname/ Studio: </p></td>
+                        <td><div id="sourceName"></div></td>
+                        <td><div id="sourceName2"></div></td>
+                        <td><div id="automName"></div></td>
+                </tr>    
+                <tr>
+                  <td><p class="text-right">Source IP: </p></td>
+                    <td><div id="sourceIP"></div></td>
+                    <td><div id="sourceIP2"></div></td>
+                    <td><div id="automIP"></div></td>
+                    <td></td>
+                </tr>
+                  <td><p class="text-right">Mod ID: </p></td>
+                    <td><div id="modID"> </div></td>
+                    <td><div id="modID2"> </div></td>
+                    <td><div id="modIDautom"> </div></td>
+                <tr>
+                  <td><p class="text-right">Stream Start: </p></td>
+                    <td><div id="streamStart"> </div></td>
+                    <td><div id="streamStart2"> </div></td>
+                    <td><div id="streamStartAutom"> </div></td>
+                </tr>
+                <tr>     
+               <td><p class="text-right">Bitrate: </p></td>   
+                    <td><div id="bitrateSource"> </div></td>
+                    <td><div id="bitrateSource2"> </div></td>
+                    <td><div id="bitrateSourceAutom"> </div></td>
+                </tr>
+                <tr>     
+                    <td><p class="text-right">Titel: </p></td>   
+                         <td><div id="titel"> </div></td>
+                         <td><div id="titel2"> </div></td>
+                         <td><div id="titelAutom"> </div></td>
+                     </tr>           
+                </table>
+            
+
+<script type="text/javascript" src="mairlist.js"></script>
+
+</body>
+    
+    </html>
