@@ -1,0 +1,5 @@
+begin
+  StreamMonitor.GetStreams.GetItem(0).SetEnabled(true);	
+  SetRuntimeData('StreamMonitorOnAir0', '1');
+  SystemLog('BEO StreamMonitor 0 -> AN');
+end.
