@@ -4,23 +4,24 @@
  * @package     
  * @license     http://www.gnu.org/licenses/agpl.html AGPL Version 3
  * @author      Christian Meyer <info@dj-meggs.de>
- * @copyright   Copyright (c) 2017-2018 Christian Meyer (http://www.dj-meggs.de/)
+ * @copyright   Copyright (c) 2017-2019 Christian Meyer (http://www.dj-meggs.de/)
  *
 */
 
+
 .blinken {
     -webkit-animation-name: blinker;
-    -webkit-animation-duration: 1.5s;
+    -webkit-animation-duration: 5s;
     -webkit-animation-timing-function: linear;
     -webkit-animation-iteration-count: infinite;
                       
     -moz-animation-name: blinker;
-    -moz-animation-duration: 1.5s;
+    -moz-animation-duration: 5s;
     -moz-animation-timing-function: linear;
     -moz-animation-iteration-count: infinite;
                         
     animation-name: blinker;
-    animation-duration: 1.5s;
+    animation-duration: 5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     float: center;
